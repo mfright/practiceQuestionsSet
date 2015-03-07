@@ -1,0 +1,3 @@
+Destination filename [startup-config]? 
+Building configuration...
+[OK]

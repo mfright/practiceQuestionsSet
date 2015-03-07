@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<title>設問</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+
+<link rel="stylesheet" type="text/css" href="../img/style.css"></head>
+<body id="PAGETOP">
+ 
+
+<div id="out">
+ 
+	<div id="top_navi">
+ 
+	<a href="http://sourceforge.jp/projects/cmdpractice/wiki/FrontPage" ><img src="../img/square1.png" alt="Index">About "Command Practice".</a>
+
+
+
+	</div>
+
+
+<div id="header">
+<div id="title">
+	<h1>Practice for your networks.</h1>
+	<h2></h2>
+
+	
+	</div>
+ 
+	<div id="menu">
+		<ul>
+
+			
+
+
+			<!----------------- CORE CONTENTS (includes some sub pages) ---------------------------->
+			<!-- <li><a href="index.html">Top</a></li> -->
+			PRACTICE QUESTIONS SET
+
+
+
+
+			
+		</ul>
+	</div>
+	
+ 
+</div>
+ 
+ 
+<div id="contents">
+	<h2 class="category">3.GENERAL SETTINGS</h2>
+ 
+<center><img src="../img/img3.png"></center><BR>
+
+<BR>
+「Router」および「Router2」の２台のルータがあります。<BR>
+以下のような条件を満たすよう、「Router」と「Router2」フォルダ内の「Router.exe」を開き、
+RouterとRouter2を設定してください。<BR>
+<BR>
+●「Router」のホスト名をRouter0にする。（本ソフトでは状態変化のシミュレートはありません）<BR>
+●「Router」のenable時のパスワードをciscoにする。なお、show running-config等ではパスワードを確認できないようにする。<BR>
+●「Router」のコンソール接続パスワードをcisco-consoleにする。<BR>
+●「Router2」のtelnet接続パスワードをcisco-telnetにする。<BR>
+●省略形コマンド(例「ter len 0」のような)による設定はできません。<BR>
+
+
+<BR>
+<BR>
+「コマンドをすべて達成しました」のダイアログメッセージが表示されたら完了です。<BR>
+
+
+<!--
+<BR><BR><BR><BR>
+	<h2 class="category">「Router」の解答</h2>
+<table bgcolor="#eeeeee" width="600"><tr><td><font color="black" size="+1"><pre>
+
+Router>enable
+Router#configure terminal
+Router(config)#
+Router(config)#hostname Router0
+Router0(config)#enable secret cisco
+Router0(config)#line console 0
+Router0(config-line)#password cisco-console
+Router0(config-line)#login
+
+</pre></font></td></tr></table>
+
+
+
+
+
+<BR><BR><BR><BR>
+	<h2 class="category">「Router2」の解答</h2>
+<table bgcolor="#eeeeee" width="600"><tr><td><font color="black" size="+1"><pre>
+
+Router2>enable
+Router2#configure terminal
+Router2(config)#
+Router2(config)#line vty 0 4
+Router2(config-line)#password cisco-telnet
+Router2(config-line)#login
+Router2(config-line)#
+
+
+</pre></font></td></tr></table>
+-->
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+ 
+<div id="footer">
+		<ul>
+
+			<li><a href="../README.html" >README</a></li>
+		</ul>
+
+		
+</div>
+
+ 
+</div>
+ 
+
+</div>
+
+
+
+
+</body>
+</html>
+

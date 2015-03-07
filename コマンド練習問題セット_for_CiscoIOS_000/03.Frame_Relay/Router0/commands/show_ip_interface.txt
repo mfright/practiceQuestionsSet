@@ -1,0 +1,12 @@
+FastEthernet0/0 is administratively down, line protocol is down (disabled)
+  Internet protocol processing disabled
+FastEthernet1/0 is administratively down, line protocol is down (disabled)
+  Internet protocol processing disabled
+Serial2/0 is administratively down, line protocol is down (disabled)
+  Internet protocol processing disabled
+Serial3/0 is administratively down, line protocol is down (disabled)
+  Internet protocol processing disabled
+FastEthernet4/0 is administratively down, line protocol is down (disabled)
+  Internet protocol processing disabled
+FastEthernet5/0 is administratively down, line protocol is down (disabled)
+  Internet protocol processing disabled

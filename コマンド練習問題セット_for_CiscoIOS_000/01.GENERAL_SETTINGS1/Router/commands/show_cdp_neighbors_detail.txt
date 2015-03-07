@@ -1,0 +1,15 @@
+
+Device ID: Switch
+Entry address(es): 
+Platform: cisco 2950, Capabilities: Switch
+Interface: FastEthernet1/0, Port ID (outgoing port): FastEthernet0/1
+Holdtime: 153
+
+Version :
+Cisco Internetwork Operating System Software
+IOS (tm) C2950 Software (C2950-I6Q4L2-M), Version 12.1(22)EA4, RELEASE SOFTWARE(fc1)
+Copyright (c) 1986-2005 by cisco Systems, Inc.
+Compiled Wed 18-May-05 22:31 by jharirba
+
+advertisement version: 2
+Duplex: full

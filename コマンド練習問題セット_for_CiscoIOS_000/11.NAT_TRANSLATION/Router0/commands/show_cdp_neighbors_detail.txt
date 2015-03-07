@@ -1,0 +1,16 @@
+Device ID: Router
+Entry address(es): 
+  IP address : 172.17.0.2
+Platform: cisco PT1000, Capabilities: Router
+Interface: Serial2/0, Port ID (outgoing port): Serial2/0
+Holdtime: 144
+
+Version :
+Cisco Internetwork Operating System Software
+IOS (tm) PT1000 Software (PT1000-I-M), Version 12.2(28), RELEASE SOFTWARE (fc5)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2005 by cisco Systems, Inc.
+Compiled Wed 27-Apr-04 19:01 by miwang
+
+advertisement version: 2
+Duplex: full

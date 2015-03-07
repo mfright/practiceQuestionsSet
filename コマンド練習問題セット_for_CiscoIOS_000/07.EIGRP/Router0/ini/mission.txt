@@ -1,0 +1,5 @@
+// 下記は、Serial2/0でEIGRP (AS100)を動作させ、自動集約を無効にするコンフィグです。
+
+
+network 172.17.0.1
+no auto-summary

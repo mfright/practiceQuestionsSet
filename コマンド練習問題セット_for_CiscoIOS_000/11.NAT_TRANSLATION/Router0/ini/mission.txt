@@ -1,0 +1,5 @@
+ip nat pool mypool 172.17.0.3 172.17.0.10 netmask 255.255.0.0
+access-list 1 permit 172.16.0.0 0.0.255.255
+ip nat inside source list 1 pool mypool overload
+ip nat inside
+ip nat outside

@@ -1,0 +1,4 @@
+hostname Router0
+enable secret cisco
+password cisco-console
+login

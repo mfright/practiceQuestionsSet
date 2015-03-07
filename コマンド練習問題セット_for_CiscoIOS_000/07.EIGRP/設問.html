@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<title>設問</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+
+<link rel="stylesheet" type="text/css" href="../img/style.css"></head>
+<body id="PAGETOP">
+ 
+
+<div id="out">
+ 
+	<div id="top_navi">
+ 
+	<a href="http://sourceforge.jp/projects/cmdpractice/wiki/FrontPage" ><img src="../img/square1.png" alt="Index">About "Command Practice".</a>
+
+
+
+	</div>
+
+
+<div id="header">
+<div id="title">
+	<h1>Practice for your networks.</h1>
+	<h2></h2>
+
+	
+	</div>
+ 
+	<div id="menu">
+		<ul>
+
+			
+
+
+			<!----------------- CORE CONTENTS (includes some sub pages) ---------------------------->
+			<!-- <li><a href="index.html">Top</a></li> -->
+			PRACTICE QUESTIONS SET
+
+
+
+
+			
+		</ul>
+	</div>
+	
+ 
+</div>
+ 
+ 
+<div id="contents">
+	<h2 class="category">1.EIGRP</h2>
+ 
+<center><img src="../img/img1.png"></center><BR>
+
+<BR>
+
+EIGRPを使用し、上の図のネットワークを構成しようとしています。<BR>
+Router0以外のルータの設定はAS100として完了しています。<BR>
+Router0のSerial2/0からRouter1へケーブルを接続しましたが、<BR>
+Router0からRouter3のインタフェース(172.19.0.2)へpingが疎通しません。<BR>
+<BR><BR>
+●「Router0」フォルダ内の「Router0.exe」を起動し、必要な設定を行ってください。<BR>
+●インタフェースの指定にあたっては、ほかのインタフェースに影響が出ぬようSerial 2/0のみが指定されるようにしてください。<BR>
+●自動集約は無効にしてください。<BR>
+●スタティックルート、省略形コマンド(例「ter len 0」のような)による設定はできません。<BR>
+<BR>
+<BR>
+「コマンドをすべて達成しました」のダイアログメッセージが表示されたら完了です。<BR>
+
+
+<!--
+<BR><BR><BR><BR>
+	<h2 class="category">解答</h2>
+<table bgcolor="#eeeeee" width="600"><tr><td><font color="black" size="+1"><pre>
+
+Router0>enable
+Router0#configure terminal
+Router0(config)#router eigrp 100
+Router0(config-router)#network 172.17.0.1
+Router0(config-router)#no auto-summary
+Router0(config-router)#
+
+</pre></font></td></tr></table>
+-->
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+ 
+<div id="footer">
+		<ul>
+
+			<li><a href="../README.html" >README</a></li>
+		</ul>
+
+		
+</div>
+
+ 
+</div>
+ 
+
+</div>
+
+
+
+
+</body>
+</html>
+
